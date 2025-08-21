@@ -1,0 +1,66 @@
+# 高级睡眠插件语言文件
+# 使用 & 符号作为颜色代码前缀
+# 占位符使用 {0}, {1}, {2} 等格式
+
+# 插件消息
+plugin-enabled: "&a高级睡眠插件已启用!"
+plugin-disabled: "&c高级睡眠插件已禁用!"
+config-reloaded: "&a配置已重新加载!"
+
+# 错误消息
+console-not-allowed: "&c只有玩家可以使用此命令!"
+not-night: "&e现在不是夜晚，不需要睡觉!"
+no-permission: "&c你没有使用睡眠功能的权限!"
+sleep-ignored: "&c你当前忽略睡觉状态!"
+world-disabled: "&c这个世界没有启用睡眠功能!"
+invalid-percentage: "&c百分比必须在0.1到1.0之间!"
+invalid-number: "&c请输入有效的数字!"
+invalid-speed: "&c速度必须在1到100之间!"
+invalid-delay: "&c延迟必须在0到60秒之间!"
+
+# 状态消息
+single-sleep: "&a单人睡眠"
+percentage-sleep: "&e比例睡眠 ({0}%)"
+enabled: "&a启用"
+disabled: "&c禁用"
+toggle-mode: "&a睡眠模式已切换为: {0}"
+set-percentage: "&a睡眠百分比已设置为: {0}%"
+toggle-acceleration: "&a时间加速已{0}"
+set-speed: "&a时间加速速度已设置为: {0}"
+set-delay: "&a跳过延迟已设置为: {0}秒"
+set-delay-prompt: "&e请在聊天框中输入新的跳过延迟(0-60秒):"
+set-delay-usage: "&e使用 /sleep delay <秒数> 命令设置跳过延迟"
+
+# 睡眠相关消息
+player-sleeping: "&e{0} 上床睡觉了 ({1}/{2})"
+player-wakeup: "&e{0} 起床了 ({1}/{2})"
+skip-countdown-start: "&6满足睡眠条件! 将在 {0} 秒后跳过夜晚..."
+skip-countdown: "&e跳过夜晚倒计时: {0}秒"
+skip-cancelled: "&e跳过夜晚已取消!"
+morning-come: "&6天亮了! 大家起床啦!"
+time-acceleration-started: "&e时间加速已开始，当前时间: {0}"
+time-acceleration-stopped: "&e时间加速已停止"
+
+# GUI消息
+gui-title: "&9睡眠设置"
+gui-mode-name: "&a睡眠模式"
+gui-mode-current: "&7当前模式: {0}"
+gui-acceleration-name: "&6时间加速"
+gui-acceleration-current: "&7当前状态: {0}"
+gui-acceleration-speed: "&7速度: {0}"
+gui-delay-name: "&d跳过延迟"
+gui-delay-current: "&7当前延迟: {0}秒"
+gui-info-name: "&b插件信息"
+gui-info-version: "&7版本: {0}"
+gui-info-author: "&7作者: {0}"
+gui-info-feature1: "&e支持单人睡觉、比例睡觉"
+gui-info-feature2: "&e时间加速和GUI设置"
+gui-click-to-toggle: "&e点击切换状态"
+gui-click-to-change: "&e点击修改设置"
+
+# 帮助消息
+help-header: "&6===== &e睡眠插件帮助 &6====="
+help-command: "&e{0}"
+
+# 时间显示消息
+time-format: "&6⏰ &e{0}"

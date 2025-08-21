@@ -1,0 +1,25 @@
+# 高级睡眠插件配置
+
+# 是否启用单人睡眠模式
+single-player-sleep: true
+
+# 比例睡眠模式下的睡眠百分比 (0.1 - 1.0)
+sleep-percentage: 0.5
+
+# 是否启用床上时间加速
+time-acceleration: true
+
+# 时间加速速度 (数值越大越快，1-100)
+acceleration-speed: 10
+
+# 跳过夜晚延迟 (秒)
+skip-delay: 3
+
+# 是否在时间加速期间显示时间
+show-time-during-acceleration: true
+
+# 支持的世界列表
+enabled-worlds:
+  - world
+  - world_nether
+  - world_the_end
